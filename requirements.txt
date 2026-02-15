@@ -1,12 +1,9 @@
-# Python 3.11 compatible versions
-flask==2.3.3
-pandas==2.0.3
-numpy==1.24.3
-scikit-learn==1.3.2
-nltk==3.8.1
-joblib==1.3.2
-PyPDF2==3.0.1
-pdfplumber==0.10.3
-gunicorn==21.2.0
-setuptools==68.2.2  # Added explicitly
-wheel==0.41.2       # Added explicitly
+# NO pandas version - let pip decide
+flask
+numpy
+scikit-learn
+nltk
+joblib
+PyPDF2
+pdfplumber
+gunicorn

@@ -7,6 +7,6 @@ services:
     startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.5  # Keep this matching your local
+        value: 3.11.5  # MUST match your local version
       - key: PYTHONUNBUFFERED
         value: true
