@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+venv/
+
+# Uploads
+uploads/
+*.pdf
+*.PDF
+
+# Models (don't commit, will be trained on Render)
+models/
+!models/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.flaskenv
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local testing
+test_*.py

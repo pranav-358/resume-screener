@@ -1,0 +1,2 @@
+# Create empty folder with gitkeep
+New-Item -ItemType File -Path models\.gitkeep -Force
