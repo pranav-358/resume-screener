@@ -2,11 +2,11 @@ services:
   - type: web
     name: resume-screener
     runtime: python
-    region: oregon  # or frankfurt, singapore
+    region: oregon
     buildCommand: chmod +x render-build.sh && ./render-build.sh
     startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.5
+        value: 3.11.5  # Keep this matching your local
       - key: PYTHONUNBUFFERED
         value: true

@@ -1,18 +1,18 @@
 #!/bin/bash
-# render-build.sh
+# render-build.sh - FIXED for Python 3.11
+python -m pip install --upgrade pip setuptools wheel
+echo "🚀 Starting build for Python 3.11..."
 
-echo "Starting build process..."
+# CRITICAL: Install setuptools FIRST (this fixes pkg_resources error)
+python -m pip install --upgrade pip setuptools wheel
 
-# Upgrade pip
-pip install --upgrade pip
-
-# Install dependencies
+# Now install requirements
 pip install -r requirements.txt
 
 # Download NLTK data
-python nltk_setup.py
+python -c "import nltk; nltk.download('stopwords'); nltk.download('wordnet'); nltk.download('punkt')"
 
-# Train the model
+# Train model
 python train_model.py
 
-echo "Build complete!"
+echo "✅ Build complete!"
