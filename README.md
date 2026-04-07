@@ -119,4 +119,4 @@ Author
 Your Name - Pranav Tayade
 
 Project Link
-https://github.com/yourusername/resume-screener
+https://github.com/pranav-358/resume-screener
