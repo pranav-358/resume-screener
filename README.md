@@ -1,4 +1,4 @@
-# Resume Screening System using AI/ML
+# Resume Screening System
 
 An intelligent system that classifies resumes into job categories and matches them with job descriptions using Machine Learning.
 
@@ -31,7 +31,7 @@ DevOps Engineer,"AWS certified, Docker, Kubernetes, Jenkins, Terraform"
 ### Local Setup
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/resume-screener.git
+git clone https://github.com/pranav-358/resume-screener.git
 cd resume-screener
 
 # Create virtual environment
@@ -120,3 +120,5 @@ Name - Pranav Tayade
 
 Project Link
 https://github.com/pranav-358/resume-screener
+
+If you like it star this repo!!
