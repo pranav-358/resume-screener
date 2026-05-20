@@ -11,7 +11,7 @@ An intelligent system that classifies resumes into job categories and matches th
 
 ## Tech Stack
 - **Backend**: Flask, Gunicorn
-- **ML/AI**: scikit-learn, NLTK, pandas, numpy
+- **ML/AI**: scikit-learn, pandas, numpy
 - **Frontend**: HTML5, Tailwind CSS, JavaScript
 - **PDF Processing**: PyPDF2, pdfplumber
 - **Deployment**: Render
@@ -116,7 +116,7 @@ License
 MIT
 
 Author
-Your Name - Pranav Tayade
+Name - Pranav Tayade
 
 Project Link
 https://github.com/pranav-358/resume-screener
